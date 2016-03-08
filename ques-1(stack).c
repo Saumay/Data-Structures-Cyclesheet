@@ -9,6 +9,7 @@ isempty()
 	return 0;
 }
 
+
 isfull()
 {
 	if(top==(100-1))
