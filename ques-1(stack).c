@@ -15,7 +15,6 @@ isfull()
 	else
 	return 0;
 }
-
 void push(int x)
 {	if(isfull())
 		printf("Stack Overflow");
