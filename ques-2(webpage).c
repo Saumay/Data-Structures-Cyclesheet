@@ -5,7 +5,7 @@ forw()
 {
 	if(current==top)
 	{
-			top++;
+		top++;
 		current++;
 	}
 	else
