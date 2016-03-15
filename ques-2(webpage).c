@@ -12,6 +12,7 @@ forw()
 		current++;
 }
 
+
 back()
 {
 	current--;
