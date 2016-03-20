@@ -4,6 +4,7 @@ int main()
 {
 char stk[50],exp[50];
 int i,top=-1,a=0,b=0,c=0;
+
 printf("enter the expression:");
 gets(exp);
 
