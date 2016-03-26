@@ -51,7 +51,6 @@ for(i=0;exp[i]!='\0';i++)
  			top--;
 		}
 	}
-
 if(top==-1 && a==0 && b==0 && c==0)
 	printf("expression is balanced");
 else if(exp[0]==')' || exp[0]==']' || exp[0]=='}')
