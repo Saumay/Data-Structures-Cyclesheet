@@ -10,7 +10,6 @@ push(char eval)
 	stack[++top]=eval;
 }
 
-
 char pop()							
 {
 	return (stack[top--]);
