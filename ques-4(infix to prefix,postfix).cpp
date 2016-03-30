@@ -5,12 +5,10 @@ using namespace std;
 int top=-1;
 char stack[100];
 
-
 push(char eval)						
 {
 	stack[++top]=eval;
 }
-
 
 
 char pop()							
