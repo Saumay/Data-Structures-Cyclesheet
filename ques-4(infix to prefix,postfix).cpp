@@ -15,8 +15,6 @@ char pop()
 	return (stack[top--]);
 }
 
-
-
 int callpost(char eval)				
 {
 	switch(eval)
