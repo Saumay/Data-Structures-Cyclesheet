@@ -35,7 +35,6 @@ int callpost(char eval)
 	}
 }
 
-
 int callpre(char eval)				
 {
 	switch(eval)
