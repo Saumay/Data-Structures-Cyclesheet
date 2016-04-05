@@ -136,7 +136,6 @@ int main()
 			exit(1);
 		}
 		
-		
 					
 		while(stack[top]!='#')
 			post[k++]=pop();
