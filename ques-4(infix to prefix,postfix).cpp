@@ -135,7 +135,6 @@ int main()
 			cout<<"Invalid input\n";
 			exit(1);
 		}
-		
 					
 		while(stack[top]!='#')
 			post[k++]=pop();
