@@ -127,7 +127,6 @@ int main()
 			}
 		}
 		
-		
 		else if(n==3)								
 			exit(0);
 		else
