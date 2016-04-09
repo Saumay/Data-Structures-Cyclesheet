@@ -101,7 +101,6 @@ int main()
 			}
 		}
 		
-		
 		else if(n==2)								
 		{
 			while(exp[i++]!='\0')
