@@ -1,6 +1,7 @@
 #include<iostream>
 #include<ctype.h>
 #include<string.h>
+
 using namespace std;
 int top=-1;
 char stack[100];
