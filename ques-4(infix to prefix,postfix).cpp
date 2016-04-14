@@ -1,12 +1,14 @@
 #include<iostream>
 #include<ctype.h>
 #include<string.h>
+#include<stdio.h>
+#include<string.h>
 
 using namespace std;
 int top=-1;
 char stack[100];
 
-push(char eval)						
+void push(char eval)						
 {
 	stack[++top]=eval;
 }
@@ -75,7 +77,6 @@ int main()
 		push('#');
 		strcpy(exp,exp1);
 		
-		
 		if(n==1)								
 		{
 			strrev(exp);
@@ -126,11 +127,10 @@ int main()
 		}
 		
 		else if(n==3)								
-			exit(0);
+			break;
 		else
 		{
 			cout<<"Invalid input\n";
-			exit(1);
 		}
 					
 		while(stack[top]!='#')
