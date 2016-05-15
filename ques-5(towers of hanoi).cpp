@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 /*hanoi(int n,char source,char inter,char dest)
 {
 	if(n>=1)
