@@ -21,6 +21,7 @@ using namespace std;
 	}
 }*/
 
+
 hanoi(int n,char inter, char dest,char source)
 {
 	if(n>=1)
