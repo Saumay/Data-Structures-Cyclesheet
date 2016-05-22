@@ -97,45 +97,45 @@ main()
 	int ch,age1,a=0;
 	while(ch!=7)
 	{
-	printf("\n\nEnter your choice:\n\n1-Add a person\n2-Current status of ride\n3-Riders list in proper order\n4-VIP entry\n5-Display no. of adults nd children in the list\n6-Go for a ride\n7-Exit\n");
-	scanf("%d",&ch);
-		switch(ch)
-			{
-			case 1:
-				a++;
-				printf("\nPerson %d:\n",a);
-				printf("Enter the age of person-");
-				scanf("%d",&age1);
-				age(age1);
-				enqueue(a);
-				break;
-			case 2:
-				current_status();
-				if(isempty())
-					printf("No riders for the ride.");
-				break;
-			case 3:
-				riders_list();
-				if(isempty())
-					printf("No riders for the ride.");
-				break;
-			case 4:
-				a++;
-				printf("\nPerson %d:\n",a);
-				printf("Enter the age of person-");
-				scanf("%d",&age1);
-				age(age1);
-				VIP_enqueue(a);
-				break;
-			case 5:
-				display_age();
-				break;
-			case 6:
-				adult=0;
-				child=0;
-				ride();
-				break;
-			}
+		printf("\n\nEnter your choice:\n\n1-Add a person\n2-Current status of ride\n3-Riders list in proper order\n4-VIP entry\n5-Display no. of adults nd children in the list\n6-Go for a ride\n7-Exit\n");
+		scanf("%d",&ch);
+			switch(ch)
+				{
+				case 1:
+					a++;
+					printf("\nPerson %d:\n",a);
+					printf("Enter the age of person-");
+					scanf("%d",&age1);
+					age(age1);
+					enqueue(a);
+					break;
+				case 2:
+					current_status();
+					if(isempty())
+						printf("No riders for the ride.");
+					break;
+				case 3:
+					riders_list();
+					if(isempty())
+						printf("No riders for the ride.");
+					break;
+				case 4:
+					a++;
+					printf("\nPerson %d:\n",a);
+					printf("Enter the age of person-");
+					scanf("%d",&age1);
+					age(age1);
+					VIP_enqueue(a);
+					break;
+				case 5:
+					display_age();
+					break;
+				case 6:
+					adult=0;
+					child=0;
+					ride();
+					break;
+				}
 	}
 return 0;
 }
