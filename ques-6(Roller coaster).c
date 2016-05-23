@@ -100,7 +100,7 @@ main()
 		printf("\n\nEnter your choice:\n\n1-Add a person\n2-Current status of ride\n3-Riders list in proper order\n4-VIP entry\n5-Display no. of adults nd children in the list\n6-Go for a ride\n7-Exit\n");
 		scanf("%d",&ch);
 			switch(ch)
-				{
+			{
 				case 1:
 					a++;
 					printf("\nPerson %d:\n",a);
