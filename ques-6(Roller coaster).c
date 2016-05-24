@@ -135,7 +135,7 @@ main()
 					child=0;
 					ride();
 					break;
-				}
+			}
 	}
 return 0;
 }
