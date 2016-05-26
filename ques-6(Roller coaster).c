@@ -28,6 +28,7 @@ void enqueue(int y)
 	rear++;
 	queue[rear]=y;	
 }
+
 void dequeue()
 {
 		front++;
