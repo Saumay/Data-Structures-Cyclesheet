@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main()
 {
 char stk[50],exp[50];
