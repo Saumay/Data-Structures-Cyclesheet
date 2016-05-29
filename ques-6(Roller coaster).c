@@ -2,6 +2,7 @@
 #define max 5
 
 int front=0,rear=-1,child=0,adult=0,queue[40];
+
 isempty()
 {
 	if(rear==-1 && front==0)
