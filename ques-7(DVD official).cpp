@@ -1,9 +1,10 @@
 #include<iostream>
 #include<string.h>
 #include<stdio.h>
+#define max 5
+
 using namespace std;
 
-#define max 5
 char Q[max],A[50];
 int rear=-1,front=-1;
 
