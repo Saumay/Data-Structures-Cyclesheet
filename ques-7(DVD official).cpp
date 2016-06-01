@@ -2,6 +2,7 @@
 #include<string.h>
 #include<stdio.h>
 #define max 5
+
 using namespace std;
 
 char Q[max],A[50];
