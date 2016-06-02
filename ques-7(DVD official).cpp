@@ -42,7 +42,6 @@ void enque(char x)
 		}
 }
 
-
 void deque()
 {
 	if(isempty())
