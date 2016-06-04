@@ -41,6 +41,7 @@ void enque(char x)
 		Q[rear]=x;
 		}
 }
+
 void deque()
 {
 	if(isempty())
