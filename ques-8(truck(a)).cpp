@@ -10,6 +10,7 @@ struct node
 	node* next;
 };
 
+
 node* top=NULL;
 
 void i_first(int i,int t,int s)
