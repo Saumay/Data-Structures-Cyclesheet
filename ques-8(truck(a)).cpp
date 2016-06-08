@@ -1,5 +1,6 @@
 #include<iostream>
 #define free 3
+
 using namespace std;
 
 struct node
