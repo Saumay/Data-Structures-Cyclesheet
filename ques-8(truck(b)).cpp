@@ -8,6 +8,7 @@ struct node
 	int serv;
 	node* next;
 };
+
 node* front=NULL;
 node* rear=NULL;
 
