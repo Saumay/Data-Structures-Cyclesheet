@@ -39,19 +39,19 @@ d_first(int i)
 		cout<<endl<<"Truck can't be moved"<<endl;
 	else
 	{
-	if(front==NULL)
-		cout<<"No trucks in the garage";
-	else if(front->next==NULL)
-	{
-		delete front;
-		front=NULL;
-	}
-	else
-	{
-		node* temp=front;
-		front=temp->next;
-		delete temp;
-	}
+		if(front==NULL)
+			cout<<"No trucks in the garage";
+		else if(front->next==NULL)
+		{
+			delete front;
+			front=NULL;
+		}
+		else
+		{
+			node* temp=front;
+			front=temp->next;
+			delete temp;
+		}
 	}
 }
 
