@@ -33,7 +33,6 @@ void i_last(int i,int s)
 	}
 }
 
-
 d_first(int i)
 {	
 	if(i!=front->id)
