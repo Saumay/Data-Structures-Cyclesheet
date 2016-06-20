@@ -3,8 +3,8 @@ using namespace std;
 
 struct node
 {
-int data;
-node* next;
+	int data;
+	node* next;
 };
 
 struct node* head1=NULL;
