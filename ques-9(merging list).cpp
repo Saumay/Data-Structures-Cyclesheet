@@ -60,16 +60,16 @@ void swap_nodes(node* temp1,node* temp2)
 
 void display(node* head)
 {
-        int q;
-        node* temp;
-        temp=head;
-        while(temp->next!=0)
-            {
-                q=temp->data;
-                temp=temp->next;
-                cout<<q<<endl;
-            }
-        cout<<temp->data<<endl;
+	int q;
+	node* temp;
+	temp=head;
+	while(temp->next!=0)
+	{
+		q=temp->data;
+		temp=temp->next;
+		cout<<q<<endl;
+	}
+	cout<<temp->data<<endl;
 }
 
 void list_sort(node* head,int n)      //bubble sort
