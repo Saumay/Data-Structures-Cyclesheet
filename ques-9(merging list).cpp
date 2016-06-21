@@ -40,14 +40,14 @@ void i_last2(int val)
     if(head2==NULL)
         head2=newnode;
     else
+	{
+		while(temp->next!='\0')
 		{
-			while(temp->next!='\0')
-        		{
-                temp=temp->next;
-        		}
- 			temp->next=newnode;
-        	newnode->next=NULL;
+			temp=temp->next;
 		}
+		temp->next=newnode;
+		newnode->next=NULL;
+	}
 }
 
 void swap_nodes(node* temp1,node* temp2)
