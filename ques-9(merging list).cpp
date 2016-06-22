@@ -128,9 +128,6 @@ int main()
 					cout<<"Student "<<i<<"-"<<endl;
 					//cout<<"Roll no:";
 					cin>>roll;
-					/*cout<<"Name:";
-					cin>>name;
-					cout<<endl;*/
 					i_last1(roll);
 				}
 				cout<<endl<<"Elements in the list 1-"<<endl;
