@@ -126,7 +126,6 @@ int main()
 				for(i=1;i<=no1;i++)
 				{
 					cout<<"Student "<<i<<"-"<<endl;
-					//cout<<"Roll no:";
 					cin>>roll;
 					i_last1(roll);
 				}
