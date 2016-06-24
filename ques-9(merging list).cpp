@@ -6,6 +6,7 @@ struct node
 	int data;
 	node* next;
 };
+
 struct node* head1=NULL;
 struct node* head2=NULL;
 
