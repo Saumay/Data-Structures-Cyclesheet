@@ -9,7 +9,6 @@ struct node
 };
 
 
-
 struct node* head=NULL;
 
 void i_last(int val)
