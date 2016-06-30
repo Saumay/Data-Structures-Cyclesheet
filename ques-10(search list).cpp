@@ -89,6 +89,7 @@ void display()
             }
         cout<<temp->data<<endl;
 }
+
 search(int val)
 {
 	node* temp=head;
