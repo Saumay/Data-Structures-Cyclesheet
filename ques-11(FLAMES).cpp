@@ -3,7 +3,6 @@
 using namespace std;
 int flag=1;
 
-
 struct node
 {
 	node* next;
