@@ -8,6 +8,7 @@ struct node
 	node* next;
 	char data;
 };
+
 node* head=NULL;
 node* last=NULL;
 
