@@ -10,7 +10,6 @@ struct node
 	node* pre;
 };
 
-
 node* head=NULL;
 node* last=NULL;
 
