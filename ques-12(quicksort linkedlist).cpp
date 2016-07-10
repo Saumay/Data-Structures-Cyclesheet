@@ -11,7 +11,6 @@ struct node
 };
 
 
-
 node* head=NULL;
 node* last=NULL;
 
