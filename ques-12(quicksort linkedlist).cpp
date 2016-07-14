@@ -36,6 +36,7 @@ i_last(string a,int index)
 		last=n;
 	}
 }
+
 void quick_sort(node* left,node* right)
 {
 	string temp;
